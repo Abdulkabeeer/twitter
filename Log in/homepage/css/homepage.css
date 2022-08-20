@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.zero{
+    color: dodgerblue;
+    font-size: 300%;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 25% 50% 25%; 
+}
+aside{
+    border: 0.5px solid;
+    height: 300%;
+    color: hsl(233, 8%, 62%);
+    padding-right: 3%;
+    border-radius: 1px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-top: 5%;
+    padding-right: 40%;
+}
+a{
+    
+    text-decoration: none;
+    color: black;
+    line-height: 250%;
+    font-size: 120%;
+}
+
+a:hover{
+    color: blue;
+}
+
+.first__button{
+    padding: 40px, 50px;
+    width: 170px;
+    height: 40px;
+    border: 0.5px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dodgerblue;
+    color: white;
+}
+
+i{
+    padding-left: 20%;
+    padding-right: 10%;
+    width: 10%;
+}
+
+/* the middle of the page */
+.middle-grid{
+    padding-left: 0.1%;  
+    border: 0.5px solid;
+    height: 300%;
+    border-color: hsl(233, 8%, 62%);
+    border-radius: 1px;
+    width: 100%;
+}
+.top2 input{
+    border: 0;
+}
+.top2{
+    display: flex;
+}
+h1{
+    padding-top: 2%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+}
+
+p{
+    padding-top: 13px;
+}
+.question{
+    color: hsl(233, 8%, 62%);
+    width: 1200%;
+}
+b{
+    padding-top: 13px;
+}
+.top2__button{
+    padding-left: 85%;
+}
+
+.second__button{
+    padding: 40px, 50px;
+    width: 100px;
+    height: 40px;
+    border: 0.5px solid;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.top1{
+    justify-content: space-between;
+}
+.second{
+    color: rgb(200, 200, 300);
+    border: 3px solid;
+}
+.middle-header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.middle-header__content{
+    display: flex;
+    margin-right: 60%;
+}
+.arrow{
+    padding-left: 60%;
+}
+.comment{
+    padding: 10px;
+}
+.middle-body>img{
+    border-radius: 10%;
+    padding: 10px;
+    padding-left: 40px;
+}

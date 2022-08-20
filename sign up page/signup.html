@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="css/signup.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="header-div">
+            <header>
+                <div class="icon">
+                    <i class="fab fa-twitter zero" aria-hidden="true"></i>
+                </div>
+                <div class="language-div">
+                    <label for="language">Language:</label>
+                    <select name="language" id="language">
+                        <option value="1">
+                            English
+                        </option>
+                        <option value="2">
+                            Arabic
+                        </option>
+                        <option value="3">
+                            Hausa
+                        </option>
+                        <option value="4">
+                            French
+                        </option>
+                        <option value="5">
+                            German
+                        </option>
+                    </select>
+                </div>
+            </header>
+        </div>
+        <main>
+            <form method="post">
+                <section>
+                    <h1>
+                        Join Twitter today.
+                    </h1>
+                   <div class="inputs">
+                        <div class="info">
+                            <label for="full-name"></label>
+                            <input type="text" name="full-name" placeholder="Full name" id="full-name">
+                        </div>
+                        <div class="info">
+                            <label for="phone-or-email"></label>
+                            <input type="text" name="phone-or-email" placeholder="Phone or Email" id="phone-or-email">
+                        </div>
+                        <div class="info">
+                            <label for="password"></label>
+                            <input type="password" name="password" placeholder="Password" id="password">
+                        </div>
+                   </div>
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="Checkbox">
+                        <p>Tailor Twitter based on my recent website visits.</p>
+                        <label for="checkbox"><a href="">Learn more</a></label>
+                    </div>
+                    <button>
+                        Sign up
+                    </button>
+                    <p class="gist">
+                        By signing up, you agree to the <a href="">Terms of Service</a> and <a href="">Privacy Policy</a>,<br>
+                        including <a href="">Cookie Use</a>. Others will be able to find you by email or phone <br> number
+                        when provided.
+                    </p>
+                </section>
+            </form>
+        </main>
+    </body>
+</html>
